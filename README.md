@@ -28,8 +28,7 @@ This project is a practical application to learn and compare three popular Node.
 
 ## 🗃️ Data Model
 
-essa aplicação contera as seguintes entidades: Users, budgets e 
-BudgetItems, segue script de criação das tabelas para um banco relacional no nosso estudo usaremos mysql.
+This application against the following entities: Users, budgets and Budget Items, follows the script for creating the database tables. In the study example, I will use MySQL.
 
 ```sql
 -- Users Table
@@ -161,25 +160,25 @@ npm run start:dev
 ## 📊 API Endpoints
 Authentication
 
-Method	Endpoint	Description
-POST	/auth/register	Register new user
-POST	/auth/login	Login and obtain token
+| Method | Endpoint | Description
+| POST	| /auth/register	| Register new user
+| POST	| /auth/login	| Login and obtain token
 
 Budgets (requires authentication)
 
-Method	Endpoint	Description
-GET	/budgets	List user budgets
-POST	/budgets	Create new budget
-GET	/budgets/:id	Get specific budget
-PUT	/budgets/:id	Update budget
-DELETE	/budgets/:id	Delete budget
+| Method | Endpoint | Description
+| GET	| /budgets	| List user budgets
+| POST	| /budgets	| Create new budget
+| GET	| /budgets/:id	| Get specific budget
+| PUT	| /budgets/:id	| Update budget
+| DELETE	| /budgets/:id	| Delete budget
 
 Budget Items (requires authentication)
 
-Method	Endpoint	Description
-GET	/budgets/:id/items	List budget items
-POST	/budgets/:id/items	Add item to budget
-DELETE	/budgets/:id/items/:itemId	Remove item from budget
+| Method | Endpoint | Description
+| GET	| /budgets/:id/items	| List budget items
+| POST	| /budgets/:id/items	| Add item to budget
+| DELETE	| /budgets/:id/items/:itemId	| Remove item from budget
 
 
 ## 🔐 Authentication
@@ -254,16 +253,7 @@ At the end of development, it will be possible to compare:
   - Ease of development and maintenance
   - Learning curve of each framework
   - Native features vs. external dependencies
-
-## 🤝 Contributing
-
-Feel free to contribute with:
-
-  - Documentation improvements
-  - New features
-  - Bug fixes
-  - Additional examples
-
+ 
 ## 📝 License
 
 This project is intended for educational purposes.
